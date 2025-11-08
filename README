@@ -1,0 +1,87 @@
+Diapositive 1 — Titre
+- Analyse chimique des surfaces par spectroscopie de photoélectrons X (XPS)
+- Cours : Chimie Analytique des Surfaces — Niveau M1
+- Nom de l’enseignant, université, date
+
+Diapositive 2 — Plan
+- Introduction et place de la XPS
+- Principe physique
+- Instrumentation
+- Préparation des échantillons
+- Interprétation des spectres
+- Quantification et profilage en profondeur
+- Problèmes pratiques et conseils
+- Applications et exemples
+- Références
+
+Diapositive 3 — Pourquoi la XPS ?
+- Profondeur d’analyse ~1–10 nm
+- Détecte presque tous les éléments (sauf H, He)
+- Sensibilité chimique (chemical shifts)
+- Complémentaire à AES, ToF‑SIMS, AFM, TEM
+
+Diapositive 4 — Principe physique
+- Effet photoélectrique : photon hν éjecte électron core
+- Équation : BE = hν − KE − φ
+- BE → information sur l’état chimique
+
+Diapositive 5 — Profondeur d’analyse et IMFP
+- Atténuation des électrons : I = I0 exp(−t/λ cosθ)
+- IMFP (λ) détermine profondeur utile
+- ARXPS : sondage par variation d’angle
+
+Diapositive 6 — Composants instrumentaux
+- Source X (Al Kα 1486.6 eV)
+- Monochromateur, analyseur hémisphérique, détecteur
+- Chambre UHV, flood gun, système sputter Ar+
+
+Diapositive 7 — Préparation des échantillons
+- Nettoyage de surface (avec précaution)
+- Conductivité : métallisation ou flood gun pour isolants
+- Transfert sous vide si possible
+- Attention aux artefacts du sputtering
+
+Diapositive 8 — Lecture d’un spectre XPS
+- Pics caractéristiques : C 1s (~284.8 eV), O 1s (530–533 eV), Si 2p (99–103 eV)
+- Splitting spin‑orbit (ex. S 2p)
+- Satellites, shake‑up
+
+Diapositive 9 — Chemical shifts et états d’oxydation
+- BE dépend de l’état chimique (ex. Si0 vs Si4+, Fe0 vs Fe3+)
+- Ordre de grandeur : 0.1 – quelques eV
+
+Diapositive 10 — Traitement des données
+- Suppression de la background (Shirley/Tougaard)
+- Fitting : Gauss‑Lorentz, Doniach‑Sunjic pour métaux
+- Contraintes : ratios spin‑orbit, ΔE fixes, FWHM cohérents
+
+Diapositive 11 — Quantification
+- Aire sous pic ∝ concentration × RSF
+- Formula relative : Ci = (Ii/Si) / Σ (Ij/Sj)
+- Vérifier IMFP et géométrie
+
+Diapositive 12 — Profilage en profondeur
+- ARXPS non destructif (varier θ)
+- Sputter profiling destructif (Ar+) — risques de modifications chimiques
+
+Diapositive 13 — Problèmes courants et solutions
+- Charging → flood gun, calibration BE (attention C1s)
+- Contaminations adventices → transfert propre
+- Pics chevauchants → contraintes de fitting
+
+Diapositive 14 — Applications
+- Interfaces métal/oxyde, corrosion
+- SAMs et couches organiques
+- Catalyse hétérogène (état d’oxydation)
+- Microélectronique (interfaces)
+
+Diapositive 15 — Conseils pratiques
+- Documenter paramètres (hν, pass energy, angle, flood gun)
+- Étalo ns et vérifications reproductibles
+- Complémentarité avec autres techniques
+
+Diapositive 16 — Références
+- Briggs & Grant, Practical Surface Analysis
+- Hüfner, Photoelectron Spectroscopy
+- Seah & Dench (IMFP)
+- NIST XPS Database: https://srdata.nist.gov/xps/
